@@ -1,22 +1,20 @@
 ---
-__cgxx: |
-  # vim:set expandtab shiftwidth=2 filetype=markdown foldlevel=3:
-  # SPDX-License-Identifier: GPL-3.0-only
-
-  #
-  #
-  # ~chewygumxx/cfw-filebin.git
-  # ::: :/README.md
-  #
-  #
-
 ctime: 2026-10-02
+mtime: 2026-10-05
+spdx: GPL-3.0-only
 title: "cfw-filebin"
 description: "[Cloudflare Worker] File upload bin"
 tags:
   - cloudflare-worker
   - file-upload
 ---
+
+<!--
+   -
+   - ~chewygumxx/cfw-filebin.git
+   - ::: :/README.md
+   -
+   -->
 
 # cfw-filebin
 
@@ -61,3 +59,5 @@ as passing, until you set these in the repository's settings:
 - the secret `CLOUDFLARE_API_TOKEN`, an API token that can edit Workers
 
 `create-repo` sets neither.
+
+<!-- vim:set expandtab shiftwidth=2 filetype=markdown foldlevel=3: -->
