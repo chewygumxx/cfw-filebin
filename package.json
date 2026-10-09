@@ -33,7 +33,7 @@
         "remark-cli": "^12.0.1",
         "typescript": "^7.0.2",
         "vitest": "^4.1.0",
-        "wrangler": "^4.145.0"
+        "wrangler": "^4.148.0"
     },
     "scripts": {
         "check": "bun run typecheck && bun run types:check && bun run test && bun run lint:biome && bun run lint:md && bun run lint:yaml && bun run lint:toml && bun run lint:emdash",
